@@ -1,11 +1,14 @@
-#main-container{
-	width: 100vw;
+body{
 	height: 100vh;
+	background-color: #f6f6f6;
 	display: flex;
-	background-color: #EDECEC;
+	justify-content: center;
+	align-items: center;
 }
 .left{
-	width: 50%;
+	width: 450px;
+	margin-top: 70px;
+	display: inline-block;
 }
 .right{
 	width: 50%;
@@ -19,7 +22,44 @@
 	padding-left: 10px;
 }
 
-.box2{
+form{
+	display: flex;
+	width: 300px;
+	height: 250px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #ccc;
+	flex-direction: column;
+	gap: 10px;
+}
+form>input{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+}
+.btn1{
+	background-color: #1877f2;
+	border-radius: 5px;
+	padding: 10px 20px;
+	width: 100%;
+	border: none;
+	color: white;
+}
+form>a{
+	text-decoration: none;
+	color: #1877f2;
+}
+
+.signup{
+	background-color: #42b72a;
+	border-radius: 5px;
+	padding: 10px 20px;
+	width: 100%;
+	border: none;
+	color: white;
+}
+/* .box2{
 	background-color: #fff;
 	margin: 60px 20px 0px 40px;
 	box-shadow: 0px 0px 3px;
@@ -33,6 +73,8 @@
 	height: 25px;
 	width: 80%;
 	margin: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
 }
 
 .btn1{
@@ -45,7 +87,7 @@
 	margin: 10px;
 }
 
-.btn2{
+.signup{
 	height: 29px;
 	width: 80%;
 	background-color: green;
@@ -57,4 +99,4 @@
 .box2>a{
 	text-decoration: none;
 	margin: 10px;
-}
+} */
